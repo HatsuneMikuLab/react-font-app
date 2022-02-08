@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #FFF;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.container.selected {
+  opacity: 0.5;
+}
+
+.colorBadge {
+  display: flex;
+  align-items: flex-end;
+  width: 80px;
+  height: 80px;
+  padding: 6px;
+  border: solid 1px #444;
+  border-radius: 4px;
+}
+
+.abbr {
+  color: #FFF;
+  opacity: 0.5;
+  font-size: large;
+}
+
+.fontDescription {
+  flex: 1 0 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px;
+}
